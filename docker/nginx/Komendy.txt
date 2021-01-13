@@ -1,0 +1,5 @@
+
+
+
+docker build . -t nginx -f nginx.dockerfile
+docker run --name nginx-server -d -p 8080:8080 -p 443:443 nginx  
